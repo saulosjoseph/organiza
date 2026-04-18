@@ -11,7 +11,7 @@ type Props = {
   cardsByColumn: Record<string, KanbanCard[]>
   columns: KanbanColumn[]
   columnLabels: Record<string, string>
-  assignableUsers: { id: string; name: string }[]
+  assignableUsers: { id: string; username: string }[]
   nucleoId: string
 }
 
