@@ -14,7 +14,7 @@ import { readFileSync } from 'fs'
 import { resolve } from 'path'
 
 const username = process.env.ADM_USERNAME ?? 'admin'
-const password = process.env.ADM_PASSWORD ?? 'TPY53QHGP$lnuNc'
+const password = process.env.ADM_PASSWORD ?? ''
 
 async function main() {
   const db = postgres(process.env.DATABASE_URL!, { max: 1 })
